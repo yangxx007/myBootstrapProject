@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title></title>
+
+</head>
+<body>
+<div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Default</a></li>
+              <li><a href="../navbar-static-top/">Static top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+<div class="alert alert-success hidden" role="alert">
+  <strong>well done!</strong>
+  you have updated the database !
+</div>
+<form  class="form-inline" role="form"> 
+<!--   <ul class="list-inline">
+    <li><div >
+      <h2><span class="label label-success" >attendance</span></h2>
+      </div>
+    </li>
+    <li><input type="name"  class="form-control" placeholder="name"  required="" autofocus="" ></li>
+    <li> <input type="account" class="form-control" placeholder="account or last unique numbers" ></li>
+
+    <li><button class="btn btn-primary" >check</button></li>
+  </ul> -->
+  <label class="label label-success" style="font-size: 20px;text-shadow: black 5px 3px 3px"> attendance </label>
+    <div class="pull-right" >
+      
+      <input type="name" class="form-control" autofocus="" placeholder="name" >
+      <label class="label label-warning">or</label>
+      <input class="form-control" placeholder="account">
+      <button class="btn btn-primary">query</button>
+
+    </div>
+   
+    
+</form>
+
+   
+<div class="col-md-12">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Account</th>
+                <th>Name</th>
+                <th>Attendance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+ </div> <!-- /container -->
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="attendace.js"></script>
+</body>
+</html>
